@@ -1,17 +1,25 @@
 import "./App.css";
 import React from "react";
-import { Unity, useUnityContext } from "react-unity-webgl";
+import { useEffect } from "react";
+import logo from "./assets/images/logo.svg";
+import orange_form from "./assets/images/orange-form.svg";
+import pink_form from "./assets/images/pink-form.svg";
 
 function App() {
-  const { unityProvider } = useUnityContext({
-    loaderUrl: "build/myunityapp.loader.js",
-    dataUrl: "build/myunityapp.data",
-    frameworkUrl: "build/myunityapp.framework.js",
-    codeUrl: "build/myunityapp.wasm",
-  });
-
   return (
-    <Unity unityProvider={unityProvider} style={{ width: 800, height: 600 }} />
+    <>
+      <header>
+        <img
+          className="main-logo"
+          src={logo}
+          alt="logotyp för björk och frihet"
+        />
+      </header>
+      <main>
+        <img className="orange-form" src={orange_form} />
+        <img className="pink-form" src={pink_form} />
+      </main>
+    </>
   );
 }
 
