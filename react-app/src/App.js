@@ -17,6 +17,7 @@ function App() {
       </header>
       <main>
         <img className="orange-form" src={orange_form} />
+        <div className="unity"></div>
         <img className="pink-form" src={pink_form} />
       </main>
     </>

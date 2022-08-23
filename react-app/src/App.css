@@ -1,3 +1,9 @@
+header {
+  height: 10vh;
+  padding: 1rem;
+  background: hotpink;
+}
+
 main {
   display: flex;
   width: 100%;
@@ -6,10 +12,17 @@ main {
   justify-content: space-between;
 }
 
-header {
-  height: 10vh;
-  padding: 1rem;
-  background: hotpink;
+.unity {
+  width: 60%;
+  height: 50%;
+
+  background: white;
+  border-radius: 1rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .main-logo {
