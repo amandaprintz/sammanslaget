@@ -26,11 +26,7 @@ function App() {
         />
       </header>
       <main>
-        <Unity
-          className="unity"
-          unityProvider={unityProvider}
-          style={{ width: 800, height: 600 }}
-        />
+        <Unity className="unity" unityProvider={unityProvider} />
         <img className="orange-form" src={orange_form} />
         <img className="pink-form" src={pink_form} />
       </main>
