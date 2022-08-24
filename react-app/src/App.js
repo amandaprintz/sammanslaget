@@ -30,6 +30,8 @@ function App() {
         <img className="orange-form" src={orange_form} />
         <img className="pink-form" src={pink_form} />
       </main>
+
+      <About/>
     </>
   );
 }
