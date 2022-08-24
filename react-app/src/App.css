@@ -33,3 +33,13 @@ main {
 .pink-form {
   justify-self: flex-end;
 }
+
+@media screen and (max-width: 57rem) {
+  body {
+    background-color: lightgreen;
+  }
+
+  .pink-form {
+    display: none;
+  }
+}
