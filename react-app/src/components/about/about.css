@@ -9,11 +9,17 @@
 
 .item {
     margin: auto;
-    background-color: white;
     padding: 2rem;
     border-radius: 2%;
   }
 
   .photo img {
     width: 300px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10%;
+  }
+
+  .socials img {
+    padding-right: 10px;
   }
