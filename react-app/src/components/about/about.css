@@ -6,6 +6,11 @@
   grid-auto-flow: row;
 }
 
+h2,
+h3 {
+  font-family: "StoneSans";
+}
+
 .item {
   margin: auto;
   padding: 2rem;

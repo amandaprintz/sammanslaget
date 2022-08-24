@@ -1,0 +1,27 @@
+
+
+header {
+    height: 10vh;
+    padding: 1rem;
+    background: #F0E9DF;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-logo {
+    height: 10vh;
+    background: rgba(255, 255, 255, 0);
+  }
+  
+  .menu{
+    padding-top: 1rem;
+    display: flex;
+  }
+
+  .tabs{
+    padding-right: 3rem;
+    font-family: "Bold"; 
+    font-size: 22px;
+    
+
+  }
