@@ -20,6 +20,16 @@
     border-radius: 10%;
   }
 
+  .info{
+    padding-left: 20px;
+  }
+
+  .socials {
+    padding-left: 20px;
+  }
+
   .socials img {
+    width: 20px;
     padding-right: 10px;
   }
+
