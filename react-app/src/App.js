@@ -4,6 +4,7 @@ import orange_form from "./assets/images/orange-form.svg";
 import pink_form from "./assets/images/pink-form.svg";
 import About from "./components/about/about";
 import Header from "./components/header/header";
+import "././assets/fonts/Otterco-Bold.woff";
 
 
 import { Unity, useUnityContext } from "react-unity-webgl";

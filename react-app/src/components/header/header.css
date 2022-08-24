@@ -14,12 +14,14 @@ header {
   }
   
   .menu{
-    padding-top: 2rem;
+    padding-top: 1rem;
     display: flex;
   }
 
   .tabs{
-    padding-right: 5rem;
-/*     font-family: StoneSans; */
+    padding-right: 3rem;
+    font-family: "Bold"; 
+    font-size: 22px;
+    
 
   }

@@ -2,6 +2,19 @@
   --main-beige: #f0e9df;
 }
 
+@font-face {
+  font-family: "Bold";   /*Can be any text*/
+  src: local("Otterco-Bold"),
+    url("././assets/fonts/Otterco-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Medium";   /*Can be any text*/
+  src: local("Otterco-Medium"),
+    url("././assets/fonts/Otterco-Medium.woff") format("woff");
+}
+
+
 body {
   background: var(--main-beige);
   margin: 0;
