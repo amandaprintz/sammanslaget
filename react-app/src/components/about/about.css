@@ -37,11 +37,17 @@ h3 {
   padding-right: 10px;
 }
 
-@media screen and (max-width: 57rem) {
-  body {
-    background-color: lightgreen;
+@media screen and (max-width: 1500px) {
+  .container {
+    display: grid;
+    padding: 5rem 0rem 5rem 0rem;
+    grid-template-columns: auto auto;
+    grid-gap: 3rem;
+    grid-auto-flow: row;
   }
+}
 
+@media screen and (max-width: 57rem) {
   .container {
     display: grid;
     padding: 5rem 0rem 5rem 0rem;

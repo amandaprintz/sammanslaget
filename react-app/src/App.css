@@ -1,10 +1,8 @@
-
-
 main {
   display: flex;
   width: 100%;
   height: 90vh;
-  background: #F0E9DF;
+  background: #f0e9df;
   justify-content: space-between;
 }
 
@@ -21,12 +19,11 @@ main {
   transform: translate(-50%, -40%);
 }
 
-
 .pink-form {
   justify-self: flex-end;
 }
 
-@media screen and (max-width: 57rem) {
+@media screen and (max-width: 1500px) {
   body {
     background-color: lightgreen;
   }
