@@ -1,10 +1,10 @@
 import "./App.css";
 import React from "react";
-import { useEffect } from "react";
-import logo from "./assets/images/logo.svg";
 import orange_form from "./assets/images/orange-form.svg";
 import pink_form from "./assets/images/pink-form.svg";
 import About from "./components/about/about";
+import Header from "./components/header/header";
+
 
 import { Unity, useUnityContext } from "react-unity-webgl";
 
@@ -18,13 +18,9 @@ function App() {
 
   return (
     <>
-      <header>
-        <img
-          className="main-logo"
-          src={logo}
-          alt="logotyp för björk och frihet"
-        />
-      </header>
+
+    <Header/>
+
       <main>
         <Unity className="unity" unityProvider={unityProvider} />
         <img className="orange-form" src={orange_form} />
