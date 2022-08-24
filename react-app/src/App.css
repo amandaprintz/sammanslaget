@@ -19,8 +19,17 @@ main {
   transform: translate(-50%, -40%);
 }
 
+.orange-form {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
 .pink-form {
-  justify-self: flex-end;
+  position: absolute;
+  right: 0rem;
+  z-index: 0;
 }
 
 @media screen and (max-width: 1500px) {
@@ -29,6 +38,5 @@ main {
   }
 
   .pink-form {
-    display: none;
   }
 }

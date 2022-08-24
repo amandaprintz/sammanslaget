@@ -6,7 +6,6 @@ import About from "./components/about/about";
 import Header from "./components/header/header";
 import "././assets/fonts/Otterco-Bold.woff";
 
-
 import { Unity, useUnityContext } from "react-unity-webgl";
 
 function App() {
@@ -19,16 +18,15 @@ function App() {
 
   return (
     <>
-
-    <Header/>
+      <Header />
 
       <main>
-        <Unity className="unity" unityProvider={unityProvider} />
         <img className="orange-form" src={orange_form} />
         <img className="pink-form" src={pink_form} />
+        <Unity className="unity" unityProvider={unityProvider} />
       </main>
 
-      <About/>
+      <About />
     </>
   );
 }
