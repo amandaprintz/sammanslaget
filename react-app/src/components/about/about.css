@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    padding: 5rem 0rem 5rem 0rem;
+    grid-template-columns: auto auto auto;
+    grid-gap: 3rem;
+    grid-auto-flow: row;
+  }
+
+
+.item {
+    margin: auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2%;
+  }
+
+  .photo img {
+    width: 300px;
+  }
