@@ -24,6 +24,10 @@
     padding-left: 20px;
   }
 
+  h2, h3{
+    font-family: "StoneSans"; 
+  }
+
   .socials {
     padding-left: 20px;
   }

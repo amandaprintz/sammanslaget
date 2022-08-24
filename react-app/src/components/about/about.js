@@ -13,8 +13,9 @@ export default function About () {
       <div class="photo">
       <img src={doggie} />
       <div class="info"> 
-      <h2>Namn</h2>
-      <h3>Titel</h3></div>
+      <h2>Anthony Policelli</h2>
+      <h3>Game programmer</h3>
+      </div>
       </div>
      <div class="socials"> 
      <img src={mail} />
@@ -25,8 +26,8 @@ export default function About () {
       <div class="photo">
       <img src={doggie} />
       <div class="info"> 
-      <h2>Namn</h2>
-      <h3>Titel</h3></div>
+      <h2>Danny Edmalm</h2>
+      <h3>Game Artist</h3></div>
       </div>
      <div class="socials"> 
      <img src={mail} />
@@ -37,8 +38,8 @@ export default function About () {
       <div class="photo">
       <img src={doggie} />
       <div class="info"> 
-      <h2>Namn</h2>
-      <h3>Titel</h3></div>
+      <h2>Amelie Olsson</h2>
+      <h3>Game Artist</h3></div>
       </div>
      <div class="socials"> 
      <img src={mail} />
@@ -49,8 +50,8 @@ export default function About () {
       <div class="photo">
       <img src={doggie} />
       <div class="info"> 
-      <h2>Namn</h2>
-      <h3>Titel</h3></div>
+      <h2>Sabrina Gnerlich</h2>
+      <h3>UX Designer</h3></div>
       </div>
      <div class="socials"> 
      <img src={mail} />
@@ -61,8 +62,8 @@ export default function About () {
       <div class="photo">
       <img src={doggie} />
       <div class="info"> 
-      <h2>Namn</h2>
-      <h3>Titel</h3></div>
+      <h2>Amanda Karlsson Printz</h2>
+      <h3>Webbutvecklare</h3></div>
       </div>
      <div class="socials"> 
      <img src={mail} />
@@ -73,8 +74,8 @@ export default function About () {
       <div class="photo">
       <img src={doggie} />
       <div class="info"> 
-      <h2>Namn</h2>
-      <h3>Titel</h3></div>
+      <h2>Oliver Davis</h2>
+      <h3>Webbutvecklare</h3></div>
       </div>
      <div class="socials"> 
      <img src={mail} />

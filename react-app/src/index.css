@@ -1,17 +1,31 @@
-:root {
-  --main-beige: #f0e9df;
-}
 
+
+
+/* imported fonts */
 @font-face {
-  font-family: "Bold";   /*Can be any text*/
+  font-family: "Bold";  
   src: local("Otterco-Bold"),
     url("././assets/fonts/Otterco-Bold.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Medium";   /*Can be any text*/
+  font-family: "Medium";   
   src: local("Otterco-Medium"),
     url("././assets/fonts/Otterco-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "StoneSans";   
+  src: local("Stone-Sans-Bold"),
+    url("././assets/fonts/Stone-Sans-Bold.woff") format("woff");
+}
+
+
+
+/* root & main  */
+
+:root {
+  --main-beige: #f0e9df;
 }
 
 
