@@ -1,14 +1,10 @@
-header {
-  height: 10vh;
-  padding: 1rem;
-  background: hotpink;
-}
+
 
 main {
   display: flex;
   width: 100%;
   height: 90vh;
-  background: pink;
+  background: #F0E9DF;
   justify-content: space-between;
 }
 
@@ -25,10 +21,6 @@ main {
   transform: translate(-50%, -40%);
 }
 
-.main-logo {
-  height: 10vh;
-  background: pink;
-}
 
 .pink-form {
   justify-self: flex-end;
