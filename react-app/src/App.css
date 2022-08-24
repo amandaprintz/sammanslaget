@@ -13,8 +13,8 @@ main {
 }
 
 .unity {
-  width: 60%;
-  height: 50%;
+  width: 55%;
+  height: 60%;
 
   background: white;
   border-radius: 1rem;
@@ -33,5 +33,3 @@ main {
 .pink-form {
   justify-self: flex-end;
 }
-
-
