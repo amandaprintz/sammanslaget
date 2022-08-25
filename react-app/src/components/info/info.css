@@ -3,12 +3,6 @@
   overflow: hidden;
 }
 
-.header {
-  position: relative;
-  z-index: 10;
-  background: pink;
-}
-
 .info-section section {
   width: 100vw;
   height: 100vh;
@@ -20,7 +14,6 @@
 
   position: relative;
   top: -7rem;
-  overflow: hidden;
 }
 
 .beanie {

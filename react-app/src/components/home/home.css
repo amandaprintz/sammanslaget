@@ -1,5 +1,10 @@
-.project-container {
+.home-section {
+  height: 120vh;
+  position: relative;
+  overflow: hidden;
+}
 
+.home-section section .project-container {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -12,10 +17,10 @@
 
 .project-text {
   width: 35rem;
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
   margin-top: 1rem;
-align-items: center;
+  align-items: center;
 }
 
 .tshirt {
@@ -26,7 +31,7 @@ align-items: center;
   z-index: -1;
 }
 
-.beanie-two{
+.beanie-two {
   width: 90rem;
   position: absolute;
   left: -35rem;
@@ -38,7 +43,7 @@ align-items: center;
 button {
   width: 17rem;
   height: 4rem;
-  background-color: #CCB89C;
+  background-color: #ccb89c;
   border-radius: 10px;
   font-family: StoneSans;
   font-size: 2rem;
@@ -46,15 +51,12 @@ button {
   cursor: pointer;
 }
 
-
-
-
 .play {
   margin-left: 15rem;
   display: flex;
   align-items: center;
 }
 
-.play img{
+.play img {
   margin-top: -3rem;
 }
