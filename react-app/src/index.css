@@ -12,17 +12,16 @@
 }
 
 @font-face {
-  font-family: "Regular";   
+  font-family: "Regular";
   src: local("Otterco-Regular"),
     url("././assets/fonts/Otterco-Regular.woff") format("woff");
 }
 
 @font-face {
-  font-family: "Light";   
+  font-family: "Light";
   src: local("Otterco-Light"),
     url("././assets/fonts/Otterco-Light.woff") format("woff");
 }
-
 
 @font-face {
   font-family: "StoneSans";
