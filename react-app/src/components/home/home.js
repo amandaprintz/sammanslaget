@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import tshirt from "../../assets/images/tshirt.svg";
+import beanie from "../../assets/images/beanie.svg"
 
 export default function Project() {
   return (
@@ -8,8 +9,15 @@ export default function Project() {
      */
     <div className="project-container">
       <img className="tshirt" src={tshirt} />
-      <h1>Titel på projektet</h1>
-      <h5>Här är introtexten till </h5>
+      <img className="beanie" src={beanie} />
+      <h1>Flowers for Change</h1>
+      <h2>Vi hjälper dig att bidra</h2>
+      <div className="project-text">
+      <h5>Vi tror på att alla kan hjälpa till att göra världen till en bättre och
+         vackrare plats. Vår förhoppning är att vår hemsida inspirerar er till att
+          stödja och engagemang för en bättre morgondag. Tillsammans kan små 
+          handlingar göra stora skillnader i världen!</h5>
+    </div>
     </div>
   );
 }

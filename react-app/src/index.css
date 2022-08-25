@@ -32,7 +32,7 @@
 /* Fonts  */
 
 h1 {
-  font-family: Bold;
+  font-family: StoneSans;
   font-size: 5rem;
   text-align: center;
 }
@@ -67,7 +67,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   box-sizing: border-box;
   overflow: hidden;
 }
