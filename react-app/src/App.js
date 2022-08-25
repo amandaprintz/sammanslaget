@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<GamePage />} />
           <Route path="/about" element={<AboutPage />} />
