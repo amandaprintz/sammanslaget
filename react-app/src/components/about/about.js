@@ -19,10 +19,10 @@ export default function About() {
         <div class="info">
           <h2>Anthony Policelli</h2>
           <h3>Game programmer</h3>
-          <h4>What I did</h4>
+          <h4>Ansvarig för all programmering och funktionalitet inuti spelet. </h4>
         </div>
-        <div class="socials">
-          <img src={mail} />
+        <div class="contact">
+        <a href="mailto:antpol0822@skola.goteborg.se"><img src={mail} /></a>
           <img src={linkedin} />
         </div>
       </div>
@@ -35,8 +35,8 @@ export default function About() {
           <h3>Game Artist</h3>
           <h4>Delvis ansvarig för grafiken för spelet, gjorde även en del copywriting</h4>
         </div>
-        <div class="socials">
-          <img src={mail} />
+        <div class="contact">
+        <a href="mailto:danedm1030@skola.goteborg.se"><img src={mail} /></a>
           <img src={linkedin} />
         </div>
       </div>
@@ -49,8 +49,8 @@ export default function About() {
           <h3>Game Artist</h3>
           <h4>Ansvarig för en delar av grafiken i spelet. Designat loggan för kampanjen.</h4>
         </div>
-        <div class="socials">
-          <img src={mail} />
+        <div class="contact">
+        <a href="mailto:ammi.melinda@gmail.com"><img src={mail} /></a>
           <img src={linkedin} />
         </div>
       </div>
@@ -63,8 +63,8 @@ export default function About() {
           <h3>UX Designer</h3>
           <h4>Ledande i idé- och design- process och fokus på att säkerställa användar- vänligheten och upplevelsen.</h4>
         </div>
-        <div class="socials">
-          <img src={mail} />
+        <div class="contact">
+        <a href="mailto:sabgne0329@skola.goteborg.se"><img src={mail} /></a>
           <img src={linkedin} />
         </div>
       </div>
@@ -75,10 +75,10 @@ export default function About() {
         <div class="info">
           <h2>Amanda Printz</h2>
           <h3>Webbutvecklare</h3>
-          <h4>Designat och delvis skapat plattformen för spelets på webben. Arbetat med interaktivitet och implementation.</h4>
+          <h4>Designat och delvis skapat plattformen för spelet på webben. Arbetat med interaktivitet och implementation.</h4>
         </div>
-        <div class="socials">
-          <img src={mail} />
+        <div class="contact">
+        <a href="mailto:fannyamandakarlsson@icloud.com"><img src={mail} /></a>
           <img src={linkedin} />
         </div>
       </div>
@@ -91,8 +91,8 @@ export default function About() {
           <h3>Webbutvecklare</h3>
           <h4>What I did</h4>
         </div>
-        <div class="socials">
-          <img src={mail} />
+        <div class="contact">
+        <a href="mailto:olipar@skola.goteborg.se"><img src={mail} /></a>
           <img src={linkedin} />
         </div>
       </div>
