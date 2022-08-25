@@ -1,7 +1,6 @@
 header {
   height: 10vh;
   padding: 1rem;
-  background: #f0e9df;
   display: flex;
   justify-content: space-between;
 }
