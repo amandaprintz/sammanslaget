@@ -1,4 +1,5 @@
 import React from "react";
+import "./game.css";
 import Header from "../header/header";
 import orange_form from "../../assets/images/orange-form.svg";
 import pink_form from "../../assets/images/pink-form.svg";
@@ -17,7 +18,7 @@ function Game() {
   });
 
   return (
-    <section>
+    <section className="game-section">
       <Header />
       <main>
         <img className="orange-form" src={orange_form} />

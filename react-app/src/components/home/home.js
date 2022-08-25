@@ -1,8 +1,8 @@
 import React from "react";
 import "./home.css";
 import Header from "../header/header";
-import tshirt from "../../assets/images/tshirt.svg";
-import beanie from "../../assets/images/beanie.svg";
+import tshirt from "../../assets/images/tshirt2x.png";
+import beanie from "../../assets/images/beanie2x.png";
 import redbox from "../../assets/images/redbox.svg";
 import { NavLink } from "react-router-dom";
 

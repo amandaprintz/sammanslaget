@@ -2,7 +2,7 @@ import React from "react";
 import "./info.css";
 import logo from "../../assets/images/logo.svg";
 import yrgo from "../../assets/images/yrgo.png";
-import beanie from "../../assets/images/beanie.svg";
+import beanie from "../../assets/images/beanie2x.png";
 import socks from "../../assets/images/socks.svg";
 import suit from "../../assets/images/suit.svg";
 import Header from "../header/header";

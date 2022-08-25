@@ -15,11 +15,9 @@
   align-items: center;
 }
 
-
-.project-container h2{
-margin-top: -3rem;
+.project-container h2 {
+  margin-top: -3rem;
 }
-
 
 .project-text {
   width: 35rem;
@@ -35,15 +33,20 @@ margin-top: -3rem;
   top: -40rem;
   right: -45rem;
   z-index: -1;
+  opacity: 80%;
+
+  transform: rotate(-10deg);
 }
 
 .beanie-two {
-  width: 90rem;
+  width: 55rem;
   position: absolute;
-  left: -35rem;
-  top: -1rem;
+  left: -20rem;
+  top: 8rem;
   z-index: -1;
   opacity: 40%;
+
+  transform: rotate(20deg);
 }
 
 button {

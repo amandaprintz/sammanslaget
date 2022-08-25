@@ -17,11 +17,13 @@
 }
 
 .beanie {
-  width: 90rem;
+  width: 65rem;
   position: absolute;
-  top: -40rem;
-  right: -45rem;
+  top: -25rem;
+  right: -30rem;
 
+  transform: rotate(-40deg);
+  opacity: 80%;
   z-index: -1;
 }
 
@@ -31,6 +33,7 @@
   top: -20rem;
   right: 50vw;
 
+  opacity: 80%;
   z-index: -1;
 }
 
@@ -40,6 +43,7 @@
   bottom: -25rem;
   left: -10rem;
 
+  opacity: 80%;
   z-index: -1;
 }
 
