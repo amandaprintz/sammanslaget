@@ -43,22 +43,22 @@
   z-index: -1;
 }
 
-h2 {
+.info-section section h2 {
   font-size: 2rem;
   text-align: center;
   margin: 0rem;
 }
 
-p {
+.info-section section p {
   font-size: 1.2rem;
   text-align: center;
 }
 
-.socials a {
+.info-section section .socials a {
   margin: 0rem 2rem;
   cursor: pointer;
 }
 
-.socials a img {
+.info-section section .socials a img {
   width: 10rem;
 }
