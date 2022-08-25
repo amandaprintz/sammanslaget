@@ -5,6 +5,7 @@ import pink_form from "./assets/images/pink-form.svg";
 import About from "./components/about/about";
 import Header from "./components/header/header";
 import "././assets/fonts/Otterco-Bold.woff";
+import HomePage from "./pages/Home";
 import GamePage from "./pages/Game";
 import AboutPage from "./pages/About";
 
@@ -16,7 +17,8 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route path="/" element={<GamePage />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/game" element={<GamePage />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>
       </BrowserRouter>
