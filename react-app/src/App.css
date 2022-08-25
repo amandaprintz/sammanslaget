@@ -4,6 +4,7 @@ main {
   height: 90vh;
   background: #f0e9df;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .unity {
@@ -48,3 +49,4 @@ main {
     z-index: -1;
   }
 }
+
