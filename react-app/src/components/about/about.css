@@ -6,19 +6,15 @@
   grid-auto-flow: row;
 }
 
-/* h2,
-h3 {
-  font-family: "StoneSans";
-}
-
-h4{
-  font-family: "Light";
-} */
 
 .item {
   margin: auto;
+  max-width: 300px;
   padding: 2rem;
   border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+ align-items: flex-start;
 }
 
 .photo {
@@ -38,6 +34,7 @@ h4{
 }
 
 .info {
+  margin-top: 1rem;
   padding-left: 20px;
 }
 

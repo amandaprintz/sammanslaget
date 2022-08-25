@@ -33,7 +33,7 @@ export default function About() {
         <div class="info">
           <h2>Danny Edmalm</h2>
           <h3>Game Artist</h3>
-          <h4>What I did</h4>
+          <h4>Delvis ansvarig för grafiken för spelet, gjorde även en del copywriting</h4>
         </div>
         <div class="socials">
           <img src={mail} />
@@ -47,7 +47,7 @@ export default function About() {
         <div class="info">
           <h2>Amelie Olsson</h2>
           <h3>Game Artist</h3>
-          <h4>What I did</h4>
+          <h4>Ansvarig för en delar av grafiken i spelet. Designat loggan för kampanjen.</h4>
         </div>
         <div class="socials">
           <img src={mail} />
@@ -61,7 +61,7 @@ export default function About() {
         <div class="info">
           <h2>Sabrina Gnerlich</h2>
           <h3>UX Designer</h3>
-          <h4>What I did</h4>
+          <h4>Ledande i idé- och design- process och fokus på att säkerställa användar- vänligheten och upplevelsen.</h4>
         </div>
         <div class="socials">
           <img src={mail} />
@@ -73,9 +73,9 @@ export default function About() {
           <img src={sprinting} />
         </div>
         <div class="info">
-          <h2>Amanda Karlsson Printz</h2>
+          <h2>Amanda Printz</h2>
           <h3>Webbutvecklare</h3>
-          <h4>What I did</h4>
+          <h4>Designat och delvis skapat plattformen för spelets på webben. Arbetat med interaktivitet och implementation.</h4>
         </div>
         <div class="socials">
           <img src={mail} />

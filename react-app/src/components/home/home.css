@@ -43,6 +43,7 @@ button {
   font-family: StoneSans;
   font-size: 2rem;
   border: none;
+  cursor: pointer;
 }
 
 

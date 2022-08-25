@@ -20,7 +20,7 @@ export default function Project() {
           stödja och engagemang för en bättre morgondag. Tillsammans kan små 
           handlingar göra stora skillnader i världen!</h5>
 
-          <div className="play">
+       <div className="play">
           <NavLink to="/game">
             <button>Engagera dig! </button>
           </NavLink>
