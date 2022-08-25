@@ -98,7 +98,7 @@ export default function About() {
             <h2>Amanda Printz</h2>
             <h3>Webbutvecklare</h3>
             <h4>
-              Designat och delvis skapat plattformen för spelet på webben.
+              Designat och programmerat plattformen för spelet på webben.
               Arbetat med interaktivitet och implementation.
             </h4>
           </div>
@@ -116,7 +116,8 @@ export default function About() {
           <div class="info">
             <h2>Oliver Davis</h2>
             <h3>Webbutvecklare</h3>
-            <h4>What I did</h4>
+            <h4>Programmerat funktionalitet och interaktivitet samt 
+              implementerat responsivitet för mobilvy och datorvy. </h4>
           </div>
           <div class="contact">
             <a href="mailto:olipar@skola.goteborg.se">
