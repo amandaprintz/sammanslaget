@@ -100,10 +100,10 @@ grid-template-columns: 1fr 1fr 1fr;
 
   h4 {
     font-family: "Light"; 
+
   }
 
-  .socials {
-=======
+
   .item {
     max-width: 288px;
     width: 60%;
@@ -128,18 +128,16 @@ grid-template-columns: 1fr 1fr 1fr;
 
   .socials {
     align-self: flex-start;
->>>>>>> f3499a5dd6a0653c187997895bdc51f157278dc4
     padding-left: 20px;
   }
 
   .socials img {
     width: 20px;
     padding-right: 10px;
-<<<<<<< HEAD
+
 
   }
-  }
-=======
-  }
-}
->>>>>>> f3499a5dd6a0653c187997895bdc51f157278dc4
+  
+
+
+

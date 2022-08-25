@@ -1,6 +1,7 @@
 import React from 'react';
 import "./about.css";
 import doggie from "../../assets/images/doggie.svg";
+import float from "../../assets/images/float.svg"
 import mail from "../../assets/images/mail.svg";
 import linkedin from "../../assets/images/linkedin.svg";
 
@@ -8,7 +9,6 @@ export default function About () {
   
   return (
 
-    <div className="container">
    
    <div className="container">
       <div className="item">
@@ -17,7 +17,7 @@ export default function About () {
     <div class="info"> 
    <h2>Anthony Policelli</h2>
    <h3>Game programmer</h3>
-   <h4>A lil something about what he does</h4>
+   <h4>What I did</h4>
    </div>
    </div>
   <div class="socials"> 
@@ -30,7 +30,8 @@ export default function About () {
    <img src={doggie} />
    <div class="info"> 
    <h2>Danny Edmalm</h2>
-   <h3>Game Artist</h3></div>
+   <h3>Game Artist</h3>
+   <h4>What I did</h4></div>
    </div>
   <div class="socials"> 
   <img src={mail} />
@@ -39,10 +40,11 @@ export default function About () {
 </div>
 <div className="item">
    <div class="photo">
-   <img src={doggie} />
+   <img src={float}/>
    <div class="info"> 
    <h2>Amelie Olsson</h2>
-   <h3>Game Artist</h3></div>
+   <h3>Game Artist</h3>
+   <h4>What I did</h4></div>
    </div>
   <div class="socials"> 
   <img src={mail} />
@@ -54,7 +56,8 @@ export default function About () {
    <img src={doggie} />
    <div class="info"> 
    <h2>Sabrina Gnerlich</h2>
-   <h3>UX Designer</h3></div>
+   <h3>UX Designer</h3>
+   <h4>What I did</h4></div>
    </div>
   <div class="socials"> 
   <img src={mail} />
@@ -66,7 +69,8 @@ export default function About () {
    <img src={doggie} />
    <div class="info"> 
    <h2>Amanda Karlsson Printz</h2>
-   <h3>Webbutvecklare</h3></div>
+   <h3>Webbutvecklare</h3>
+   <h4>What I did</h4></div>
    </div>
   <div class="socials"> 
   <img src={mail} />
@@ -78,7 +82,8 @@ export default function About () {
    <img src={doggie} />
    <div class="info"> 
    <h2>Oliver Davis</h2>
-   <h3>Webbutvecklare</h3></div>
+   <h3>Webbutvecklare</h3>
+   <h4>What I did</h4></div>
    </div>
   <div class="socials"> 
   <img src={mail} />
