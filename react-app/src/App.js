@@ -5,28 +5,20 @@ import pink_form from "./assets/images/pink-form.svg";
 import About from "./components/about/about";
 import Header from "./components/header/header";
 import "././assets/fonts/Otterco-Bold.woff";
+import GamePage from "./pages/Game";
+import AboutPage from "./pages/About";
 
-import { Unity, useUnityContext } from "react-unity-webgl";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 function App() {
-  const { unityProvider } = useUnityContext({
-    dataUrl: "./build/TheoryOfChangeBuilds.data.unityweb",
-    frameworkUrl: "./build/TheoryOfChangeBuilds.framework.js.unityweb",
-    loaderUrl: "./build/TheoryOfChangeBuilds.loader.js",
-    codeUrl: "./build/TheoryOfChangeBuilds.wasm.unityweb",
-  });
-
   return (
     <>
-      <Header />
-
-      <main>
-        <img className="orange-form" src={orange_form} />
-        <img className="pink-form" src={pink_form} />
-        <Unity className="unity" unityProvider={unityProvider} />
-      </main>
-
-      <About />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<GamePage />} />
+          <Route path="/about" element={<AboutPage />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
