@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "../header/header";
 import orange_form from "../../assets/images/orange-form.svg";
 import pink_form from "../../assets/images/pink-form.svg";
 import "../../assets/fonts/Otterco-Bold.woff";
@@ -16,11 +17,14 @@ function Game() {
   });
 
   return (
-    <main>
-      <img className="orange-form" src={orange_form} />
-      <img className="pink-form" src={pink_form} />
-      <Unity className="unity" unityProvider={unityProvider} />
-    </main>
+    <section>
+      <Header />
+      <main>
+        <img className="orange-form" src={orange_form} />
+        <img className="pink-form" src={pink_form} />
+        <Unity className="unity" unityProvider={unityProvider} />
+      </main>
+    </section>
   );
 }
 
