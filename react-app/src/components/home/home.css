@@ -2,13 +2,31 @@
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  text-align: center;
 }
+
+.project-text {
+  width: 35rem;
+  display: inline-flex;
+  margin-top: -2rem;
+}
+
+
 
 .tshirt {
   width: 90rem;
   position: absolute;
   top: -40rem;
   right: -45rem;
-
   z-index: -1;
 }
+
+.beanie {
+  width: 90rem;
+  position: absolute;
+  top: -10rem;
+  right: 45rem;
+  z-index: -1;
+  opacity: 40%;
+}
+
