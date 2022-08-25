@@ -16,19 +16,19 @@ export default function About () {
    
    <div className="container">
       <div className="item">
-      <div class="photo">
-      <img src={ballet} />
-    <div class="info"> 
-   <h2>Anthony Policelli</h2>
-   <h3>Game programmer</h3>
-   <h4>What I did</h4>
-   </div>
-   </div>
-  <div class="socials"> 
-  <img src={mail} />
-  <img src={linkedin} />
-   </div>
-</div>
+         <div class="photo">
+            <img src={ballet} />
+         </div>
+         <div class="info"> 
+            <h2>Anthony Policelli</h2>
+            <h3>Game programmer</h3>
+            <h4>What I did</h4>
+         </div>
+         <div class="socials"> 
+            <img src={mail} />
+            <img src={linkedin} />
+         </div>
+      </div>
 <div className="item">
    <div class="photo">
    <img src={coffee} />
