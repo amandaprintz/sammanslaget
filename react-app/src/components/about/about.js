@@ -9,79 +9,83 @@ export default function About () {
   return (
 
     <div className="container">
+   
+   <div className="container">
       <div className="item">
       <div class="photo">
       <img src={doggie} />
-      <div class="info"> 
-      <h2>Anthony Policelli</h2>
-      <h3>Game programmer</h3>
-      </div>
-      </div>
-     <div class="socials"> 
-     <img src={mail} />
-     <img src={linkedin} />
-      </div>
+    <div class="info"> 
+   <h2>Anthony Policelli</h2>
+   <h3>Game programmer</h3>
+   <h4>A lil something about what he does</h4>
    </div>
-   <div className="item">
-      <div class="photo">
-      <img src={doggie} />
-      <div class="info"> 
-      <h2>Danny Edmalm</h2>
-      <h3>Game Artist</h3></div>
-      </div>
-     <div class="socials"> 
-     <img src={mail} />
-     <img src={linkedin} />
-      </div>
    </div>
-   <div className="item">
-      <div class="photo">
-      <img src={doggie} />
-      <div class="info"> 
-      <h2>Amelie Olsson</h2>
-      <h3>Game Artist</h3></div>
-      </div>
-     <div class="socials"> 
-     <img src={mail} />
-     <img src={linkedin} />
-      </div>
+  <div class="socials"> 
+  <img src={mail} />
+  <img src={linkedin} />
    </div>
-   <div className="item">
-      <div class="photo">
-      <img src={doggie} />
-      <div class="info"> 
-      <h2>Sabrina Gnerlich</h2>
-      <h3>UX Designer</h3></div>
-      </div>
-     <div class="socials"> 
-     <img src={mail} />
-     <img src={linkedin} />
-      </div>
+</div>
+<div className="item">
+   <div class="photo">
+   <img src={doggie} />
+   <div class="info"> 
+   <h2>Danny Edmalm</h2>
+   <h3>Game Artist</h3></div>
    </div>
-   <div className="item">
-      <div class="photo">
-      <img src={doggie} />
-      <div class="info"> 
-      <h2>Amanda Karlsson Printz</h2>
-      <h3>Webbutvecklare</h3></div>
-      </div>
-     <div class="socials"> 
-     <img src={mail} />
-     <img src={linkedin} />
-      </div>
+  <div class="socials"> 
+  <img src={mail} />
+  <img src={linkedin} />
    </div>
-   <div className="item">
-      <div class="photo">
-      <img src={doggie} />
-      <div class="info"> 
-      <h2>Oliver Davis</h2>
-      <h3>Webbutvecklare</h3></div>
-      </div>
-     <div class="socials"> 
-     <img src={mail} />
-     <img src={linkedin} />
-      </div>
+</div>
+<div className="item">
+   <div class="photo">
+   <img src={doggie} />
+   <div class="info"> 
+   <h2>Amelie Olsson</h2>
+   <h3>Game Artist</h3></div>
    </div>
-    </div>
+  <div class="socials"> 
+  <img src={mail} />
+  <img src={linkedin} />
+   </div>
+</div>
+<div className="item">
+   <div class="photo">
+   <img src={doggie} />
+   <div class="info"> 
+   <h2>Sabrina Gnerlich</h2>
+   <h3>UX Designer</h3></div>
+   </div>
+  <div class="socials"> 
+  <img src={mail} />
+  <img src={linkedin} />
+   </div>
+</div>
+<div className="item">
+   <div class="photo">
+   <img src={doggie} />
+   <div class="info"> 
+   <h2>Amanda Karlsson Printz</h2>
+   <h3>Webbutvecklare</h3></div>
+   </div>
+  <div class="socials"> 
+  <img src={mail} />
+  <img src={linkedin} />
+   </div>
+</div>
+<div className="item">
+   <div class="photo">
+   <img src={doggie} />
+   <div class="info"> 
+   <h2>Oliver Davis</h2>
+   <h3>Webbutvecklare</h3></div>
+   </div>
+  <div class="socials"> 
+  <img src={mail} />
+  <img src={linkedin} />
+   </div>
+</div>
+ </div>
+
   )
 }
