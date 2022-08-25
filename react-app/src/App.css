@@ -45,6 +45,6 @@ main {
     width: 70%;
     position: absolute;
     right: 0rem;
-    z-index: 0;
+    z-index: -1;
   }
 }
