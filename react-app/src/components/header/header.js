@@ -5,13 +5,18 @@ import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
-    <nav>
+    <header>
       <NavLink to="/">
-        <p>Home</p>
+        <img className="main-logo" src={logo} />
       </NavLink>
-      <NavLink to="/about">
-        <p>ABOUT</p>
-      </NavLink>
-    </nav>
+      <nav>
+        <NavLink to="/game">
+          <p>Spel</p>
+        </NavLink>
+        <NavLink to="/about">
+          <p>Om oss</p>
+        </NavLink>
+      </nav>
+    </header>
   );
 }

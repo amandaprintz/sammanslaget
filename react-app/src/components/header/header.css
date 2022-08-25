@@ -1,29 +1,29 @@
-
-
 header {
-    height: 10vh;
-    padding: 1rem;
-    background: #F0E9DF;
-    display: flex;
-    justify-content: space-between;
-  }
+  height: 10vh;
+  padding: 1rem;
+  background: #f0e9df;
+  display: flex;
+  justify-content: space-between;
+}
 
-  .main-logo {
-    height: 10vh;
-    background: rgba(255, 255, 255, 0);
-  }
-  
+.main-logo {
+  height: 10vh;
+  background: rgba(255, 255, 255, 0);
+}
 
+nav {
+  padding-top: 1rem;
+  display: flex;
+}
 
-  .menu{
-    padding-top: 1rem;
-    display: flex;
-  }
+nav a {
+  margin: 0rem 2rem;
+  color: black;
+  text-decoration: none;
+}
 
-  .tabs{
-    padding-right: 3rem;
-    font-family: "Bold"; 
-    font-size: 22px;
-    
-
-  }
+.tabs {
+  padding-right: 3rem;
+  font-family: "Bold";
+  font-size: 22px;
+}
