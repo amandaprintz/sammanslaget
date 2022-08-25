@@ -13,7 +13,7 @@ export default function Project() {
       <img className="socks" src={socks} />
       <img className="suit" src={suit} />
       <h2>Ett sammarbete mellan</h2>
-      <p>Clicka för mer information 👇</p>
+      <h5>Klicka för mer information 👇</h5>
 
       <div className="socials">
         <a href="https://bjorkafrihet.se/">
