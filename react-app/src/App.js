@@ -8,6 +8,7 @@ import "././assets/fonts/Otterco-Bold.woff";
 import HomePage from "./pages/Home";
 import GamePage from "./pages/Game";
 import AboutPage from "./pages/About";
+import InfoPage from "./pages/Info";
 
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
@@ -20,6 +21,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/game" element={<GamePage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/info" element={<InfoPage />} />
         </Routes>
       </BrowserRouter>
     </>

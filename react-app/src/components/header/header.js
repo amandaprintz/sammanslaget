@@ -16,6 +16,9 @@ export default function Header() {
         <NavLink to="/about">
           <p>Om oss</p>
         </NavLink>
+        <NavLink to="/info">
+          <p>Info</p>
+        </NavLink>
       </nav>
     </header>
   );
