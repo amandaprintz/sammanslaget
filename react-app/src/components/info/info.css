@@ -1,12 +1,19 @@
 .info-section {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.info-section section {
   width: 100vw;
-  height: 75vh;
+  height: 100vh;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
+  position: relative;
+  top: -7rem;
   overflow: hidden;
 }
 
