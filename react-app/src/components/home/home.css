@@ -15,6 +15,12 @@
   align-items: center;
 }
 
+
+.project-container h2{
+margin-top: -3rem;
+}
+
+
 .project-text {
   width: 35rem;
   display: flex;
@@ -53,6 +59,7 @@ button {
 
 .play {
   margin-left: 15rem;
+  margin-top: -2rem;
   display: flex;
   align-items: center;
 }
