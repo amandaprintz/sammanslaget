@@ -29,6 +29,30 @@
     url("././assets/fonts/Stone-Sans-Bold.woff") format("woff");
 }
 
+/* Fonts  */
+
+h1 {
+  font-family: Bold;
+  font-size: 5rem;
+  text-align: center;
+}
+
+h2,
+h3 {
+  font-family: "StoneSans";
+}
+
+h4{
+  font-family: "Light";
+  font-size: 1rem;
+}
+
+h5{
+  font-family: "Light";
+  font-size: 1rem;
+  text-align: center;
+}
+
 /* root & main  */
 
 :root {
@@ -51,3 +75,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
