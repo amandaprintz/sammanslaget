@@ -42,12 +42,12 @@ h3 {
   font-family: "StoneSans";
 }
 
-h4{
+h4 {
   font-family: "Light";
   font-size: 1rem;
 }
 
-h5{
+h5 {
   font-family: "Light";
   font-size: 1rem;
   text-align: center;
@@ -69,11 +69,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
