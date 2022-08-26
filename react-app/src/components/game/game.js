@@ -1,7 +1,7 @@
 import React from "react";
 import "./game.css";
 import Header from "../header/header";
-import orange_form from "../../assets/images/orange-form.svg";
+import dress from "../../assets/images/dress.png";
 import pink_form from "../../assets/images/pink-form.svg";
 import "../../assets/fonts/Otterco-Bold.woff";
 
@@ -21,8 +21,8 @@ function Game() {
     <section className="game-section">
       <Header />
       <main>
-        <img className="orange-form" src={orange_form} />
-        <img className="pink-form" src={pink_form} />
+        <img className="dress" src={dress} />
+   {/*      <img className="pink-form" src={pink_form} /> */}
         <Unity className="unity" unityProvider={unityProvider} />
       </main>
     </section>

@@ -10,7 +10,6 @@ export default function Project() {
   return (
     <section className="home-section">
       <Header />
-
       <img className="tshirt" src={tshirt} />
       <img className="beanie-two" src={beanie} />
       <div className="project-container">
