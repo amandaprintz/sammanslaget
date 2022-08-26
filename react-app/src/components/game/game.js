@@ -11,10 +11,10 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 function Game() {
   const { unityProvider } = useUnityContext({
-    dataUrl: "./build/TheoryOfChangeBuilds.data.unityweb",
-    frameworkUrl: "./build/TheoryOfChangeBuilds.framework.js.unityweb",
-    loaderUrl: "./build/TheoryOfChangeBuilds.loader.js",
-    codeUrl: "./build/TheoryOfChangeBuilds.wasm.unityweb",
+    dataUrl: "./build/TofCFinalBuild.data.unityweb",
+    frameworkUrl: "./build/TofCFinalBuild.framework.js.unityweb",
+    loaderUrl: "./build/TofCFinalBuild.loader.js",
+    codeUrl: "./build/TofCFinalBuild.wasm.unityweb",
   });
 
   return (
@@ -22,7 +22,7 @@ function Game() {
       <Header />
       <main>
         <img className="dress" src={dress} />
-   {/*      <img className="pink-form" src={pink_form} /> */}
+        {/*      <img className="pink-form" src={pink_form} /> */}
         <Unity className="unity" unityProvider={unityProvider} />
       </main>
     </section>
