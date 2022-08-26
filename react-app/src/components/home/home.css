@@ -71,40 +71,36 @@ button {
   margin-top: -3rem;
 }
 
-
-
 @media screen and (max-width: 57rem) {
-
-
-  .home-section h5{
-max-width: 300px;
+  .home-section h5 {
+    max-width: 300px;
   }
 
-.project-container h1{
-  font-size: 2rem;
-}
+  .project-container h1 {
+    font-size: 2rem;
+  }
 
-.project-container h2{
-  font-size: 1rem;
-  margin-top: 1rem;
-}
+  .project-container h2 {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
 
-.play{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0rem;
-}
+  .play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+  }
 
-.play button {
-  text-align: center;
-  margin: auto;
-  font-size: 20px;
-  text-decoration: none;
-}
+  .play button {
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
 
-
-.play img{
-  display: none;
-}
+  .play img {
+    display: none;
+  }
 }
