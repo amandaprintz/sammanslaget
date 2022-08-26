@@ -99,7 +99,10 @@ max-width: 300px;
 .play button {
   text-align: center;
   margin: auto;
+  font-size: 20px;
+  text-decoration: none;
 }
+
 
 .play img{
   display: none;
