@@ -35,3 +35,21 @@ nav a:hover {
   font-family: "Bold";
   font-size: 22px;
 }
+
+.hamburger {
+  width: 1rem;
+  height: 1rem;
+  background: black;
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+}
