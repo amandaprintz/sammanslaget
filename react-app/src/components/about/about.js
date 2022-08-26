@@ -49,7 +49,9 @@ export default function About() {
             <a href="mailto:danedm1030@skola.goteborg.se">
               <img src={mail} />
             </a>
+          <a href="https://www.linkedin.com/in/danned/">
             <img src={linkedin} />
+            </a>
           </div>
         </div>
         <div className="item">
@@ -79,7 +81,7 @@ export default function About() {
             <h2>Sabrina Gnerlich</h2>
             <h3>UX Designer</h3>
             <h4>
-              Ledande i idé- och design- process och fokus på att säkerställa
+              Ledande i idé- och designprocess och fokus på att säkerställa
               användar- vänligheten och upplevelsen.
             </h4>
           </div>
@@ -87,7 +89,9 @@ export default function About() {
             <a href="mailto:sabgne0329@skola.goteborg.se">
               <img src={mail} />
             </a>
+            <a href="https://www.linkedin.com/in/sabrina-gnerlich/">
             <img src={linkedin} />
+            </a>
           </div>
         </div>
         <div className="item">
@@ -106,8 +110,10 @@ export default function About() {
             <a href="mailto:fannyamandakarlsson@icloud.com">
               <img src={mail} />
             </a>
+            <a href="https://www.linkedin.com/in/amanda-karlsson-printz-192453113">
             <img src={linkedin} />
-          </div>
+            </a>
+          </div> 
         </div>
         <div className="item">
           <div class="photo">
@@ -123,7 +129,9 @@ export default function About() {
             <a href="mailto:olipar@skola.goteborg.se">
               <img src={mail} />
             </a>
+            <a href="https://www.linkedin.com/in/oliver-davis-aa4273233/">
             <img src={linkedin} />
+            </a>
           </div>
         </div>
       </div>
