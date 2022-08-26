@@ -70,3 +70,38 @@ button {
 .play img {
   margin-top: -3rem;
 }
+
+
+
+@media screen and (max-width: 57rem) {
+
+
+  .home-section h5{
+max-width: 300px;
+  }
+
+.project-container h1{
+  font-size: 2rem;
+}
+
+.project-container h2{
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.play{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem;
+}
+
+.play button {
+  text-align: center;
+  margin: auto;
+}
+
+.play img{
+  display: none;
+}
+}
