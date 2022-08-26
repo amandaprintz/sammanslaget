@@ -1,5 +1,5 @@
 import React from "react";
-import "./home.css";
+import "./project.css";
 import Header from "../header/header";
 import tshirt from "../../assets/images/tshirt2x.png";
 import beanie from "../../assets/images/beanie2x.png";

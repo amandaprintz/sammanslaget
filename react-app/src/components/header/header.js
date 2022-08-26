@@ -13,6 +13,9 @@ export default function Header() {
         <NavLink to="/game">
           <p>Spel</p>
         </NavLink>
+        <NavLink to="/project">
+          <p>Om Projektet</p>
+          </NavLink>
         <NavLink to="/about">
           <p>Om oss</p>
         </NavLink>

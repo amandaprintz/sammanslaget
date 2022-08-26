@@ -9,6 +9,7 @@ import HomePage from "./pages/Home";
 import GamePage from "./pages/Game";
 import AboutPage from "./pages/About";
 import InfoPage from "./pages/Info";
+import ProjectPage from "./pages/Project";
 
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/game" element={<GamePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/info" element={<InfoPage />} />
+          <Route path="/project" element={<ProjectPage />} />
         </Routes>
       </BrowserRouter>
     </>
