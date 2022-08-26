@@ -2,8 +2,7 @@ import React from "react";
 import "./project.css";
 import Header from "../header/header";
 import tshirt from "../../assets/images/tshirt2x.png";
-import beanie from "../../assets/images/beanie2x.png";
-import redbox from "../../assets/images/redbox.svg";
+import pants from "../../assets/images/pants2x.png";
 import { NavLink } from "react-router-dom";
 
 export default function Project() {
@@ -12,7 +11,7 @@ export default function Project() {
       <Header />
 
       <img className="tshirt" src={tshirt} />
-      <img className="beanie-two" src={beanie} />
+      <img className="pants" src={pants} />
       <div className="project-container">
         <h1>Är du redo för förändring?</h1>
         <h2>Vi hjälper dig att bidra</h2>
@@ -24,12 +23,6 @@ export default function Project() {
             kan små handlingar göra stora skillnader i världen!
           </h5>
 
-          <div className="play">
-            <NavLink to="/game">
-              <button>Engagera dig! </button>
-            </NavLink>
-            <img src={redbox} />
-          </div>
         </div>
       </div>
     </section>
