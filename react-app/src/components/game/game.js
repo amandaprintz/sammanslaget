@@ -10,12 +10,16 @@ import { Unity, useUnityContext } from "react-unity-webgl";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 function Game() {
-  const { unityProvider } = useUnityContext({
+  const { unityProvider, unload } = useUnityContext({
     dataUrl: "./build/TofCFinalBuild.data.unityweb",
     frameworkUrl: "./build/TofCFinalBuild.framework.js.unityweb",
     loaderUrl: "./build/TofCFinalBuild.loader.js",
     codeUrl: "./build/TofCFinalBuild.wasm.unityweb",
   });
+
+  async function handleClickBack() {
+    await unload();
+  }
 
   return (
     <section className="game-section">

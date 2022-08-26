@@ -19,10 +19,10 @@ export default function Project() {
         <h5>Klicka för mer information 👇</h5>
 
         <div className="socials">
-          <a href="https://bjorkafrihet.se/">
+          <a href="https://bjorkafrihet.se/" target="_blank" rel="noreferrer">
             <img src={logo} />
           </a>
-          <a href="https://www.yrgo.se/">
+          <a href="https://www.yrgo.se/" target="_blank" rel="noreferrer">
             <img src={yrgo} />
           </a>
         </div>
