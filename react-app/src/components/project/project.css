@@ -64,13 +64,17 @@ button {
   cursor: pointer;
 }
 
-.play {
-  margin-left: 15rem;
-  margin-top: -2rem;
-  display: flex;
-  align-items: center;
-}
-
 .play img {
   margin-top: -3rem;
+}
+
+@media screen and (max-width: 57rem) {
+
+  .project-section h5{
+    max-width: 300px;
+      }
+    
+  .project-container h1 {
+        margin-bottom: 3rem;
+    }
 }

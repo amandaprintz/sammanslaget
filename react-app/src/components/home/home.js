@@ -10,11 +10,10 @@ export default function Project() {
   return (
     <section className="home-section">
       <Header />
-
       <img className="tshirt" src={tshirt} />
       <img className="beanie-two" src={beanie} />
       <div className="project-container">
-        <h1>Flowers for Change</h1>
+        <h1>Är du redo för förändring?</h1>
         <h2>Vi hjälper dig att bidra</h2>
         <div className="project-text">
           <h5>

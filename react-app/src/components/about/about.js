@@ -30,7 +30,6 @@ export default function About() {
             <a href="mailto:antpol0822@skola.goteborg.se">
               <img src={mail} />
             </a>
-            <img src={linkedin} />
           </div>
         </div>
         <div className="item">
@@ -70,8 +69,7 @@ export default function About() {
             <a href="mailto:ammi.melinda@gmail.com">
               <img src={mail} />
             </a>
-            <img src={linkedin} />
-          </div>
+        </div>
         </div>
         <div className="item">
           <div class="photo">
