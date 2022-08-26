@@ -59,6 +59,7 @@ main {
 
   .unity {
     width: 80%;
+    max-width: 500px;
     height: 70%;
 
     background: white;
