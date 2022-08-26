@@ -7,11 +7,11 @@ import { NavLink } from "react-router-dom";
 
 export default function Project() {
   return (
-    <section className="home-section">
+    <section className="project-section">
       <Header />
 
       <img className="tshirt" src={tshirt} />
-      {/* <img className="pants" src={pants} /> */}
+      <img className="pants" src={pants} /> 
       <div className="project-container">
         <h1>Projektet</h1>
         <div className="project-text">

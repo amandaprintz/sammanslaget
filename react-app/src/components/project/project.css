@@ -1,4 +1,4 @@
-.home-section {
+.project-section {
   height: 120vh;
   position: relative;
   overflow: hidden;
@@ -16,7 +16,7 @@
 }
 
 
-.project-text {
+.project-section .project-text{
   width: 38rem;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 
-.project-text h5{
+.project-section  .project-text h5{
     text-align: left;
     margin-top: -4rem;
    
