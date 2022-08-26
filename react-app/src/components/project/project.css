@@ -15,17 +15,21 @@
   align-items: center;
 }
 
-.project-container h2 {
-  margin-top: -3rem;
-}
 
 .project-text {
-  width: 35rem;
+  width: 38rem;
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
+  margin-top: 2rem;
   align-items: center;
 }
+
+
+.project-text h5{
+    text-align: left;
+    margin-top: -4rem;
+   
+  }
 
 .tshirt {
   width: 90rem;

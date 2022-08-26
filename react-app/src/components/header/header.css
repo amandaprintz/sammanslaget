@@ -16,15 +16,21 @@ header {
 nav {
   padding-top: 1rem;
   display: flex;
+
 }
 
 nav a {
   margin: 0rem 2rem;
-  color: #dd3830;
+  color: #000000;
   text-decoration: none;
   font-family: Bold;
   font-size: 22px;
 }
+
+nav a:hover{
+  color:#DD3830;
+}
+
 
 .tabs {
   padding-right: 3rem;

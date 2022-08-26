@@ -11,16 +11,18 @@ export default function Project() {
       <Header />
 
       <img className="tshirt" src={tshirt} />
-      <img className="pants" src={pants} />
+      {/* <img className="pants" src={pants} /> */}
       <div className="project-container">
-        <h1>Är du redo för förändring?</h1>
-        <h2>Vi hjälper dig att bidra</h2>
+        <h1>Projektet</h1>
         <div className="project-text">
           <h5>
-            Vi tror på att alla kan hjälpa till att göra världen till en bättre
-            och vackrare plats. Vår förhoppning är att vår hemsida inspirerar er
-            till att stödja och engagemang för en bättre morgondag. Tillsammans
-            kan små handlingar göra stora skillnader i världen!
+          Något vackert kan växa ut ur alla sorters små frön. Ta din garderob som ett exempel.
+           Finns det kläder som du faktiskt inte använder?  Med en donation till Björk&Frihet,
+            stora som små, kan ditt stöd hjälpa människor till att leva bättre liv.
+            <br/>
+            <br/>
+            Spelupplevelsen inspirerades av donations lådor. När du skänker något till lådan blir 
+            blomstrar ängen med blommor som slutligen bildar en vacker blomsteräng.
           </h5>
 
         </div>
