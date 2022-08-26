@@ -1,73 +1,72 @@
 .home-section {
-    height: 120vh;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .project-container {
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    text-align: center;
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .project-container h2 {
-    margin-top: -3rem;
-  }
-  
-  .project-text {
-    width: 35rem;
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-    align-items: center;
-  }
-  
-  .tshirt {
-    width: 90rem;
-    position: absolute;
-    top: -40rem;
-    right: -45rem;
-    z-index: -1;
-    opacity: 80%;
-  
-    transform: rotate(-10deg);
-  }
-  
-  .beanie-two {
-    width: 55rem;
-    position: absolute;
-    left: -20rem;
-    top: 8rem;
-    z-index: -1;
-    opacity: 40%;
-  
-    transform: rotate(20deg);
-  }
-  
-  button {
-    width: 17rem;
-    height: 4rem;
-    background-color: #ccb89c;
-    border-radius: 10px;
-    font-family: StoneSans;
-    font-size: 2rem;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .play {
-    margin-left: 15rem;
-    margin-top: -2rem;
-    display: flex;
-    align-items: center;
-  }
-  
-  .play img {
-    margin-top: -3rem;
-  }
-  
+  height: 120vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-container h2 {
+  margin-top: -3rem;
+}
+
+.project-text {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.tshirt {
+  width: 90rem;
+  position: absolute;
+  top: -40rem;
+  right: -45rem;
+  z-index: -1;
+  opacity: 80%;
+
+  transform: rotate(30deg);
+}
+
+.pants {
+  width: 55rem;
+  position: absolute;
+  left: -20rem;
+  top: 12rem;
+  z-index: -1;
+  opacity: 40%;
+
+  transform: rotate(-20deg);
+}
+
+button {
+  width: 17rem;
+  height: 4rem;
+  background-color: #ccb89c;
+  border-radius: 10px;
+  font-family: StoneSans;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.play {
+  margin-left: 15rem;
+  margin-top: -2rem;
+  display: flex;
+  align-items: center;
+}
+
+.play img {
+  margin-top: -3rem;
+}
