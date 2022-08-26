@@ -25,7 +25,7 @@ main {
   transform: translate(-50%, -40%);
 }
 
-.dress{
+.dress {
   width: 70rem;
   position: absolute;
   left: -32rem;
@@ -55,5 +55,18 @@ main {
     position: absolute;
     right: 0rem;
     z-index: -1;
+  }
+
+  .unity {
+    width: 80%;
+    height: 70%;
+
+    background: white;
+    border-radius: 1rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
   }
 }

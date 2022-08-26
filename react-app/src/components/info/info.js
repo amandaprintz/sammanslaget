@@ -15,7 +15,7 @@ export default function Project() {
         <img className="beanie" src={beanie} />
         <img className="socks" src={socks} />
         <img className="suit" src={suit} />
-        <h2>Ett sammarbete mellan</h2>
+        <h2>Ett samarbete mellan</h2>
         <h5>Klicka för mer information 👇</h5>
 
         <div className="socials">
